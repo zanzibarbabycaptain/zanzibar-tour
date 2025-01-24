@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #004d40; /* Dark green */
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: green;
+    text-decoration: none;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+/* Main content styling */
+.cont {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 25px;
+    border: 1px solid;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    color: #00796b; /* Greenish blue */
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+strong {
+    color: #d32f2f; /* Red accent for emphasis */
+}
+
+/* Buttons styling */
+.btn-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #004d40;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #00796b; /* Brighter green */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer  {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #004d40;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #00796b;
+}
